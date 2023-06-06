@@ -19,42 +19,44 @@
     color: #44576D;
   }
 
-  .card-outer {
-    display: flex;
-    justify-content: space-between;
-  }
   
-  .card {
-    width: 300px;
-    padding: 20px;
-    background-color: #f1f1f1;
+  .custom-card {
+    width: 18rem;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  
-  .card img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+
+  .custom-card .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
-  
-  .card h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
+
+  .custom-card .card-body {
+    padding: 1.5rem;
   }
-  
-  .card p {
-    font-size: 14px;
-    margin-bottom: 20px;
+
+  .custom-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
   }
-  
-  .card a {
-    display: inline-block;
-    text-decoration: none;
-    background-color: #AAC7D8;
+
+  .custom-card .card-text {
+    font-size: 1rem;
     color: #000;
-    padding: 8px 16px;
-    border-radius: 4px;
+    font-family:roboto, sans-serif;
   }
-  
-  .card a:hover {
+
+  .custom-card .btn-primary {
+    background-color: #AAC7D8;
+    border-color: #AAC7D8;
+    color: #000;
+    font-family:roboto, sans-serif;
+    
+  }
+
+  .custom-card .btn-primary:hover {
     background-color: #44576D;
+    border-color: #44576D;
   }

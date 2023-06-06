@@ -12,44 +12,42 @@
   </head>
   <body>
 
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
-
-      
-
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-        <img src="https://images.pexels.com/photos/169523/pexels-photo-169523.jpeg?auto=compress&cs=tinysrgb&w=300" class="card-img-top" alt="Gov Picture">
-        <div class="card-body">
-          <h5 class="card-title">Government Website Redsign</h5>
-          <p class="card-text">A UI Redesign of the USDA Government Website</p>
-          <a href="#" class="btn btn-primary">Continue</a>
-        </div>
-      </div>
-          
+    <style>
+      .custom-card {
+        width: 32rem;
+        margin: 0 auto;
+      }
+    
+      .custom-image {
+        width: 100%;
+        max-height: 100%;
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+    
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card custom-card">
+          <div class="card-body">
+            <img src="https://navajosanta.org/wp-content/uploads/2020/05/dsc_0160-copy.jpg" class="card-img-top custom-image" alt="Navajo Picture">
+            <h5 class="card-title">Navajo Redesign</h5>
+            <p class="card-text">A UI Redesign of the Navajo Santa Website</p>
+            <a href="#" class="btn btn-primary">Continue</a>
           </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-        <img src="https://navajosanta.org/wp-content/uploads/2020/05/dsc_0160-copy.jpg" class="card-img-top" alt="Navajo Picture">
-        <div class="card-body">
-          <h5 class="card-title">Navajo Redsign</h5>
-          <p class="card-text">A UI Redesign of the Navajo Santa Website</p>
-          <a href="#" class="btn btn-primary">Continue</a>
         </div>
-          
-          
       </div>
+      <div class="col-sm-6">
+        <div class="card custom-card">
+          <div class="card-body">
+            <img src="https://images.pexels.com/photos/169523/pexels-photo-169523.jpeg?auto=compress&cs=tinysrgb&w=300" class="card-img-top custom-image" alt="Gov Picture">
+            <h5 class="card-title">Government Website Redsign</h5>
+            <p class="card-text">A UI Redesign of the USDA Government Website</p>
+            <a href="#" class="btn btn-primary">Continue</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     <!-- Optional JavaScript -->
